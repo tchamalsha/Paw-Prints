@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E1CA92A2B0F0C7800034FB8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CA9292B0F0C7800034FB8 /* LoginView.swift */; };
-		4E1CA92C2B0F0FC700034FB8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CA92B2B0F0FC700034FB8 /* Storyboard.storyboard */; };
+		4E400D132B0F7D82008E3B31 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E400D122B0F7D82008E3B31 /* Color.swift */; };
 		4E8490E82B0E456400C7D1C4 /* PawPrintsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8490E72B0E456400C7D1C4 /* PawPrintsApp.swift */; };
 		4E8490EA2B0E456400C7D1C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8490E92B0E456400C7D1C4 /* ContentView.swift */; };
 		4E8490EC2B0E456500C7D1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8490EB2B0E456500C7D1C4 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		4E1CA9292B0F0C7800034FB8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		4E1CA92B2B0F0FC700034FB8 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		4E400D122B0F7D82008E3B31 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		4E8490E42B0E456400C7D1C4 /* PawPrints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawPrints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8490E72B0E456400C7D1C4 /* PawPrintsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPrintsApp.swift; sourceTree = "<group>"; };
 		4E8490E92B0E456400C7D1C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E400D112B0F7D5D008E3B31 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				4E400D122B0F7D82008E3B31 /* Color.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		4E8490DB2B0E456300C7D1C4 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +69,7 @@
 		4E8490E62B0E456400C7D1C4 /* PawPrints */ = {
 			isa = PBXGroup;
 			children = (
+				4E400D112B0F7D5D008E3B31 /* Extentions */,
 				4E84912F2B0F0A4B00C7D1C4 /* Model */,
 				4E84912E2B0F0A4500C7D1C4 /* View */,
 				4E8490F52B0E478900C7D1C4 /* GoogleService-Info.plist */,
@@ -85,7 +94,6 @@
 			children = (
 				4E8491342B0F0BB600C7D1C4 /* HomeView.swift */,
 				4E1CA9292B0F0C7800034FB8 /* LoginView.swift */,
-				4E1CA92B2B0F0FC700034FB8 /* Storyboard.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,7 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8490EF2B0E456500C7D1C4 /* Preview Assets.xcassets in Resources */,
-				4E1CA92C2B0F0FC700034FB8 /* Storyboard.storyboard in Resources */,
 				4E8490EC2B0E456500C7D1C4 /* Assets.xcassets in Resources */,
 				4E8490F62B0E478900C7D1C4 /* GoogleService-Info.plist in Resources */,
 			);
@@ -178,6 +185,7 @@
 				4E8491352B0F0BB600C7D1C4 /* HomeView.swift in Sources */,
 				4E8490EA2B0E456400C7D1C4 /* ContentView.swift in Sources */,
 				4E1CA92A2B0F0C7800034FB8 /* LoginView.swift in Sources */,
+				4E400D132B0F7D82008E3B31 /* Color.swift in Sources */,
 				4E8490E82B0E456400C7D1C4 /* PawPrintsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
