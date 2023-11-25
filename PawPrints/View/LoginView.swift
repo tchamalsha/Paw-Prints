@@ -32,6 +32,7 @@ struct LoginView: View {
                 .background(Color.black.opacity(0.05))
                 .cornerRadius(10)
                 .border(.red,width: CGFloat(wrongPassword))
+                .padding(.bottom,15)
             
             Button("Login"){
                 
@@ -42,8 +43,11 @@ struct LoginView: View {
             .background(Color.theme.primary)
             .foregroundColor(.white)
             .cornerRadius(10)
+            
+        }.vAlign(.center)
+        HStack{
             Text("Don't have an account?")
-            Button("Sign UP"){
+            Button("Login"){
                 
             }
             .foregroundColor(Color.theme.primary)
