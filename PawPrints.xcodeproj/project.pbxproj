@@ -21,6 +21,9 @@
 		4E32D0CE2B6397CB00104D97 /* SearchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32D0CD2B6397CB00104D97 /* SearchUserView.swift */; };
 		4E32D0D22B63985C00104D97 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32D0D12B63985C00104D97 /* ProfileView.swift */; };
 		4E32D0D42B63988300104D97 /* ReusableProfileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32D0D32B63988300104D97 /* ReusableProfileContent.swift */; };
+		4E32D0D62B63992000104D97 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32D0D52B63992000104D97 /* PostView.swift */; };
+		4E32D0D82B63992E00104D97 /* ReusablePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32D0D72B63992E00104D97 /* ReusablePostView.swift */; };
+		4E32D0DA2B63993A00104D97 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32D0D92B63993A00104D97 /* PostCardView.swift */; };
 		4E400D132B0F7D82008E3B31 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E400D122B0F7D82008E3B31 /* Color.swift */; };
 		4E400D172B104CC5008E3B31 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E400D162B104CC5008E3B31 /* View.swift */; };
 		4E8490E82B0E456400C7D1C4 /* PawPrintsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8490E72B0E456400C7D1C4 /* PawPrintsApp.swift */; };
@@ -42,6 +45,9 @@
 		4E32D0CD2B6397CB00104D97 /* SearchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserView.swift; sourceTree = "<group>"; };
 		4E32D0D12B63985C00104D97 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4E32D0D32B63988300104D97 /* ReusableProfileContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileContent.swift; sourceTree = "<group>"; };
+		4E32D0D52B63992000104D97 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		4E32D0D72B63992E00104D97 /* ReusablePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePostView.swift; sourceTree = "<group>"; };
+		4E32D0D92B63993A00104D97 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 		4E400D122B0F7D82008E3B31 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		4E400D162B104CC5008E3B31 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		4E8490E42B0E456400C7D1C4 /* PawPrints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawPrints.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +114,9 @@
 		4E32D0D02B63984200104D97 /* PostView */ = {
 			isa = PBXGroup;
 			children = (
+				4E32D0D52B63992000104D97 /* PostView.swift */,
+				4E32D0D72B63992E00104D97 /* ReusablePostView.swift */,
+				4E32D0D92B63993A00104D97 /* PostCardView.swift */,
 			);
 			path = PostView;
 			sourceTree = "<group>";
@@ -267,6 +276,8 @@
 				4E32D0D42B63988300104D97 /* ReusableProfileContent.swift in Sources */,
 				4E32D0CC2B63978900104D97 /* Post.swift in Sources */,
 				4E8490EA2B0E456400C7D1C4 /* ContentView.swift in Sources */,
+				4E32D0DA2B63993A00104D97 /* PostCardView.swift in Sources */,
+				4E32D0D82B63992E00104D97 /* ReusablePostView.swift in Sources */,
 				4E32D0CE2B6397CB00104D97 /* SearchUserView.swift in Sources */,
 				4E1CA92A2B0F0C7800034FB8 /* LoginView.swift in Sources */,
 				4E400D132B0F7D82008E3B31 /* Color.swift in Sources */,
@@ -275,6 +286,7 @@
 				4E32D0C82B5F948D00104D97 /* MainView.swift in Sources */,
 				4E8490E82B0E456400C7D1C4 /* PawPrintsApp.swift in Sources */,
 				4E32D0C52B5F809000104D97 /* User.swift in Sources */,
+				4E32D0D62B63992000104D97 /* PostView.swift in Sources */,
 				4E32D0C32B5F804800104D97 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
