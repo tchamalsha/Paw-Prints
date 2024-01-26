@@ -1,17 +1,22 @@
 //
-//  PawPrintsApp.swift
-//  PawPrints
+//  SocialMediaApp.swift
+//  SocialMedia
 //
-//  Created by Tharushi Chamalsha on 2023-11-22.
+//  Created by Balaji on 07/12/22.
 //
 
 import SwiftUI
+import Firebase
 
 @main
-struct PawPrintsApp: App {
+struct SocialMediaApp: App {
+    init(){
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            ContentView()
+                .preferredColorScheme(.light)
         }
     }
 }

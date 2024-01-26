@@ -1,21 +1,26 @@
 //
 //  ContentView.swift
-//  PawPrints
+//  SocialMedia
 //
-//  Created by Tharushi Chamalsha on 2023-11-22.
+//  Created by Balaji on 07/12/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("log_status") var logStatus: Bool = false
     var body: some View {
-        VStack {
-            Text("Hexllo, world!")
+        // MARK: Redirecting User Based on Log Status
+        if logStatus{
+            MainView()
+        }else{
+            LoginView()
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
